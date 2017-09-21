@@ -1,0 +1,49 @@
+body{
+  background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC);
+  
+  
+}
+#clock{
+  margin-top:60px;
+  
+  
+  width: 350px;
+  height:350px;
+  padding-bottom:20px;;
+}
+#run{
+  max-height:80%;
+  max-width:80%
+}
+
+#time{
+  font-size:100px;
+  color:white;
+}
+
+
+#main{
+  width:100%;
+  margin-top: 50px;
+}
+#sess,#brk{
+  float:left;
+  width: 37%;
+}
+#clock{
+  float:left;
+  width:25%;
+}
+h1{
+  font-family: 'Zilla Slab Highlight';
+  font-style: italic;
+  font-size:70px;
+}
+#break,#session,#plus_s,#plus_b,#minus_s,#minus_b{
+  font-size:30px;
+}
+h4{
+  margin-top:10px;
+}
